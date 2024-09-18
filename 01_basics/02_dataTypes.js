@@ -9,3 +9,27 @@ console.log(3
 console.log("Neel");
 
 
+let name = "Neel"
+let age = 25
+let isLoggedIn = false 
+
+
+// number => 2 to power 53
+// bigint => mota numbro 
+// string => " "
+// boolean => True or False
+// null => standalone value (khali che)
+// undefiend => hajii value nakki nthi
+// symbol => unique
+
+
+// object
+
+console.log(typeof undefined); // output undefined
+console.log(typeof null); // output object
+
+
+
+
+
+
