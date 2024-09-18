@@ -12,9 +12,10 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-// console.log(anotherId === Id);
+console.log(id === anotherId);
 
-// const bigint = 158945659848965265n
+
+ const bigNumber = 158945659848965265n
 
 
 
@@ -22,19 +23,20 @@ const anotherId = Symbol('123')
 
 // Array , object, Function
 
-const heros = [ shaktiman, nagraj, doga] // array
+const heros = [ shaktiman, nagraj, doga] ;      // array
 
 let myObj = {
-    name = "neel"
-    age = 25
+    name = "neel",
+    age = 25,
 }
-
 const myFunction = function(){
-    // console.log("heloo word");
+     console.log("heloo word");
   }
-    
-// console.log(typeof score);
+ 
+  console.log(typeof anotherId);
 
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
 
@@ -47,8 +49,8 @@ let myYoutubename = "hiteshchoudry.com"
 let anothername = myYoutubename
 anothername = "chai or code"
 
-// console.log(myYoutubename);
-// console.log(anothername);
+console.log(myYoutubename);
+console.log(anothername);
 
 let userOne = {
   email : "hitesh@gmail.com"
@@ -61,4 +63,3 @@ userTwo.Email = "neel@gamil.com"
 
 console.log(userOne.Email);
 console.log(userTwo.Email);
-
